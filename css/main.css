@@ -1,0 +1,87 @@
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+
+html,
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/*
+ * Header Section
+ */
+header {
+  margin-bottom: 40px;
+}
+
+/*
+ * Main Section
+ */
+main .answer,
+main span {
+  font-size: 1.25rem;
+  letter-spacing: .5px;
+}
+
+main .span-title {
+  margin-bottom: 10px;
+}
+
+main .calc-section {
+  align-items: center;
+  background-color: #eef5fb;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .2),
+              0px 1px 1px 0px rgba(0, 0, 0, .14),
+              0px 2px 1px -1px rgba(0, 0, 0, .12);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 26px 24px;
+}
+
+/*
+ * Inputs
+ */
+.input-container {
+  display: inline-block;
+  position: relative;
+  transition: .2s ease-in-out;
+}
+
+.answer input[type="text"] {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: 1px solid rgba(0, 0, 0, .42);
+  border-radius: .25rem;
+  font-size: 18px;
+  max-width: 70px;
+  padding: .375rem .75rem;
+  transition: .2s ease-in-out;
+}
+
+input[type="text"]:hover {
+  border-color: rgba(0, 0, 0, .87);
+}
+
+input[type="text"]:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+/*
+ * Etc
+ */
+.hidden {
+  opacity: 0;
+}
